@@ -50,8 +50,8 @@ class SiteMapManager {
             types: {
                 pages: this.pages,
                 posts: this.posts,
-                authors: this.authors,
-                tags: this.tags
+                // authors: this.authors,
+                // tags: this.tags
             },
             maxPerPage: options.maxPerPage
         });
